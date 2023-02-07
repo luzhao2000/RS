@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "CASA0023 Learning Diary"
+  author: "Lu"
+  date: "2023/1/19"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - Week1.qmd
+    - Week2.qmd
+    - Week3.qmd
+    - Week4.qmd
+    - Week5.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
